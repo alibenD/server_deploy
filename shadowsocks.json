@@ -3,7 +3,7 @@
   "server_port": 12121,
   "local_address": "127.0.0.1",
   "local_port": 1080,
-  "password": "e^i+1=0",
+  "password": "e^(i*pi)+1=0",
   "timeout": 300,
   "method": "aes-256-cfb"
 }

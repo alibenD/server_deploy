@@ -5,7 +5,7 @@
 # @file: ss_install.bash
 # @author: aliben.develop@gmail.com
 # @created_date: 2018-05-31 20:42:21
-# @last_modified_date: 2018-07-20 23:35:13
+# @last_modified_date: 2018-12-12 14:48:40
 # @brief: TODO
 #---***********************************************---
 
@@ -23,4 +23,5 @@ sysctl net.ipv4.tcp_available_congestion_control
 sysctl net.ipv4.tcp_congestion_control
 sysctl net.core.default_qdisc
 cp shadowsocks.json /etc/
-echo "PATH=`pwd`:\$PATH"
+echo "PATH=`pwd`:\$PATH" >> $HOME/.bashrc
+./ssr_start
